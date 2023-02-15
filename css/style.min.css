@@ -158,7 +158,7 @@ body {
   background-color: #f7f7f9;
   min-width: 320px;
   line-height: 121.4%;
-  overflow: hidden;
+  
 }
 
 a,
@@ -1172,7 +1172,7 @@ label[for=lang] {
 
 .table-offer-mob {
   display: none;
-  overflow: hidden;
+ 
 }
 .table-offer-mob .table__item {
   margin: 25px 25px 0;
