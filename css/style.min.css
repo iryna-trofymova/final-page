@@ -142,6 +142,7 @@ body.lock {
 
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 *::selection {
@@ -157,6 +158,7 @@ body {
   background-color: #f7f7f9;
   min-width: 320px;
   line-height: 121.4%;
+  overflow: hidden;
 }
 
 a,
@@ -624,6 +626,7 @@ template {
 
 .nav__list {
   display: flex;
+  align-items: center;
 }
 @media (max-width: 1090px) {
   .nav__list {
