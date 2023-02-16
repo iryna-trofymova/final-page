@@ -305,7 +305,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-   overflow-x: none;
+   
 }
 
 ul {
@@ -1197,6 +1197,7 @@ label[for=lang] {
 @media (max-width: 767px) {
   .table-offer-mob {
     display: block;
+      overflow: hidden;
     max-width: 700px;
     padding: 0 25px;
   }
