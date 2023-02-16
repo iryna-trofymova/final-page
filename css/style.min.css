@@ -610,6 +610,11 @@ template {
   .header_inner {
     padding: 22px 40px;
   }
+  }
+@media (max-width: 1090px) {
+  .header_inner {
+   display: block;
+  }
 }
 @media (max-width: 620px) {
   .header_inner {
@@ -682,8 +687,8 @@ template {
 }
 @media (max-width: 767px) {
   .select {
-    right: 90%;
-    bottom: 15px;
+   left: -22px;
+    top: -40px;
   }
 }
 .select::after {
@@ -758,7 +763,7 @@ label[for=lang] {
     display: flex;
     align-items: center;
     position: absolute;
-    right: 5%;
+    right: 0%;
     top: 5%;
     background: none;
   }
@@ -794,13 +799,13 @@ label[for=lang] {
     display: block;
     left: 36%;
     top: 75%;
-    z-index: 30;
+    z-index: -1;
   }
   .d_popup.open .leaf_3 {
     display: block;
     left: 40%;
     top: 69%;
-    z-index: 30;
+    z-index: -1;
   }
   .d_popup .menu {
     width: 100%;
